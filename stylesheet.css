@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    background-image: url("MACKY.jpg");
+  
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: -1px;
+    z-index: 5;
+    background: rgba(2, 211, 124, 0.6);
+}
+.Fransid{
+    width:3 0%;
+    position:absolute;
+
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+}
+.navbar ul li{
+    text-decoration: aquamarine;
+    color: rgb(249, 255, 253);
+    text-transform: capitalize;
+}
+.navbar ul li::after{
+    height: 20px;
+    width: 100%;
+    background:black;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+       width: 100%;
+}
+.content{
+    width: 100%;
+    position:absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    text-align:left;
+    color: rgb(0, 180, 180);
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: bottom;
+}
+
+.avatar {
+    display: flex;
+    margin-top: 30vh;
+}
